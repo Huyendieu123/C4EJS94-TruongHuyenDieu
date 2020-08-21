@@ -1,7 +1,7 @@
 let array1 = ['C', 'R', 'U', 'D'];
 let array2 = ['jean', 'T-shirt', 'Socks'];
 let menu = prompt("Hi there, welcome to shop admin partner, what do you want [" + array1.toString() + "]");
-if (array1.indexOf(menu) < 0 || array1.indexOf(menu)>=array1.length ) {
+if (array1.indexOf(menu) < 0) {
     alert('This command is not supported');
 }
 
