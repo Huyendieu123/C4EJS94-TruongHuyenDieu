@@ -40,24 +40,46 @@ let obj6 = {
     price: 14000,
     quantity: 7,
 };
-
+let array1 = [];
+let array2 = [];
+let array3 = [];
 let array = [obj1, obj2, obj3, obj4, obj5, obj6];
 for (let i = 0; i < array.length; i++) {
     let s = array[i].brand;
-    let array1 = [];
-    let array2 = [];
-    let array3 = [];
-    if (s = 'HP') {
+
+    if (s == 'HP') {
         array1.push(array[i]);
-    } else if (s = 'Dell') {
-        array1.push(array[i])
-    } else if (s = 'Asus') {
+    } else if (s == 'Dell') {
+        array2.push(array[i])
+    } else if (s == 'Asus') {
         array3.push(array[i]);
     }
-}
 
+
+}
 
 console.log(array1);
 console.log(array2);
 console.log(array3);
+
+let x = prompt('Which brand?');
+let arrays = [array1, array2, array3];
+for (let i = 0; i < arrays.length; i++) {
+    let x1 = ' There are ';
+    let checktontai = false;
+    for (let k = 0; k < arrays[i].length; k++) {
+        if (x == arrays[i][k].brand) {
+            x1 += arrays[i].length + arrays[i][k].brand + ' inventory ';
+            checktontai = true;
+        }
+    }
+    if (checktontai)
+        alert(x1);
+}
+
+
+
+
+
+
 
