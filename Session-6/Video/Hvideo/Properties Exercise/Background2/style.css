@@ -1,0 +1,18 @@
+div {
+    width: 800px;
+    height: 300px;
+}
+#d0{
+    background-image: url(lE7ZkrO-_400x400.jpg);
+    background-repeat: no-repeat;
+}
+#d1{
+    background-image: url(lE7ZkrO-_400x400.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#d2{
+    background-image: url(lE7ZkrO-_400x400.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

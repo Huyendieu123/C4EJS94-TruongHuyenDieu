@@ -1,0 +1,19 @@
+div {
+    width: 500px;
+    height: 135px;
+}
+#d1{
+    background-image: url(pixel-cat.png);
+}
+#d2 {
+    background-image: url(pixel-cat.png);
+    background-repeat: repeat-x;
+}
+#d3 {
+    background-image: url(pixel-cat.png);
+    background-repeat: repeat-y;
+}
+#d4 {
+    background-image: url(pixel-cat.png);
+    background-repeat: no-repeat;
+}

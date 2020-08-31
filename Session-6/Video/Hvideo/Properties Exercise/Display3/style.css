@@ -1,0 +1,9 @@
+#span1{
+  background: red;
+  float: left;
+}
+#span2{
+  background:yellow;
+  width: 500px;
+  display: block;
+}

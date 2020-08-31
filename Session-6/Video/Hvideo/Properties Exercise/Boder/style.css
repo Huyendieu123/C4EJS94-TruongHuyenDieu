@@ -1,0 +1,24 @@
+div{
+    width: 200px;
+    height:200px;
+    background:wheat;
+    font-size:30px;
+    text-align:center;
+    line-height:200px;
+    /*  Insert code bellow  */
+  }
+#d1 {
+    border-style: solid;
+    border-width: 3px;
+}
+#d2 {
+    border-style: solid;
+    border-width: 3px;
+    border-color: blue;
+}
+#d3 {
+    border-style: solid;
+    border-width: 3px;
+    border-color: blue;
+    border-radius: 1rem;
+}
