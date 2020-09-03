@@ -1,0 +1,35 @@
+setTimeout()
+setInterval()
+setTimeout ( expression, timeout );
+:expression là đoạn mã JavaScript được thực thi sau khi timeout chạy hết số mili giây đã thiết lập.
+setInterval():
+hàm này sẽ thường được sử dụng để thiết lập độ trễ cho các hàm sẽ được thực hiện lặp lại như là hiệu ứng
+setInterval ( expression, interval )
+Điểm khác nhau: 
+setTimeout chỉ kích hoạt expression một lần trong khi setInterval sẽ kích hoạt expression sau một khoảng thời gian nhất định (trừ khi bạn cho nó dừng lại).
+Để dừng hoạt động của hàm setInterval, chúng ta sử dụng hàm clearInterval(timerId)
+
+
+// function sayHello() {
+//     alert('Hello');
+//   }
+//   setTimeout(sayHello, 1000);
+
+//   function sayHello(message, person) {
+//     alert( message + ', ' + person );
+//   }
+//   setTimeout(sayHello, 1000, "Hi", "Monica"); // Hi, Monica
+
+// function sayHello(name) {
+//     alert('Hello ' + name);
+// }
+let name = prompt("Nhập tên");
+// sayHello(name);
+
+setTimeout(() => {alert('Hello ' + name)
+
+}, 2000);
+// setTimeout(() => {
+//     alert('Hello');
+//     alert('Hello');
+// }, 1000);
