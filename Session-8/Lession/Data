@@ -1,0 +1,10 @@
+Read DOM: 3 cách đọc cơ bản: qua tag, class, id
+document.getelementby(tagname): đọc qua tag
+document.getelementbyId(id): đọc qua id
+document.getelementby(class): đọc qua class
+
+Update trong DOM:
+Event trong DOM: Sự kiện trong DOM
+addEventListener: Hàm add sự kiện (mã sự kiện ví dụ 'click' ())
+Creat: Tạo mới trong DOM
+insertAdjacentHTML
