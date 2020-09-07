@@ -1,17 +1,35 @@
 let count = 5;
 let interval;
-document.getElementById('button1').addEventListener('click', function () {
-    var value = document.getElementById('nhapso').value;
-    if (value != 0) {
-        count = Number(value);
-    }
-    interval = setInterval(function () {
-        count--;
-        document.getElementById('giatri').innerHTML = count;
-    }, 1000);
+let s = document.getElementById('button1');
 
-});
+// s.addEventListener('click', function () {
+//     var value = document.getElementById('nhapso').value;
+//     let interval = setInterval(function () {
+//         if (value != 0) {
+//             count = Number(value);
+//             count--;
+//             document.getElementById('giatri').innerHTML = count;
+//         }
+//     }, 1000)}
+// );
 
-document.getElementById('button2').addEventListener('click', function () {
+
+let x = document.getElementById('button2');
+
+x.addEventListener('click', function () {
     clearInterval(interval);
 });
+
+s.addEventListener('click', function() {
+    var value = document.getElementById('nhapso').value;
+    let interval = setInterval(() => {
+        count = Number(value);
+        count --;
+        document.getElementById('giatri').innerHTML=count;
+        console.log(count);
+
+        if(value<0) {
+            clearInterval(interval);
+        }
+    }, 1000);
+})
