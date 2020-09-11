@@ -23,13 +23,13 @@ x.addEventListener('click', function () {
 s.addEventListener('click', function() {
     var value = document.getElementById('nhapso').value;
     let interval = setInterval(() => {
-        count = Number(value);
-        count --;
-        document.getElementById('giatri').innerHTML=count;
-        console.log(count);
+        value --;
+        document.getElementById('giatri').innerHTML=value;
+        console.log(value);
 
         if(value<0) {
             clearInterval(interval);
+            document.getElementById('giatri').innerHTML = "Time's up"
         }
     }, 1000);
 })
