@@ -1,0 +1,77 @@
+body {
+    background-color: #2a363b ;
+}
+#dCon {
+    width: 80%;
+    height: auto;
+    background-color: #f9f9f9;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dCon1 {
+    margin-left: 30px;
+}
+#dHead {
+    width: 60%;
+    height: auto;
+    color: #ff847c;
+    background-color: #f9f9f9;
+    margin-left: 30px;
+
+}
+#dLeft {
+    width: 60%;
+    height: 1000px;
+    display: inline-block;
+    background-color: #f9f9f9;
+}
+#dRight {
+    width: 40%;
+    height: auto ;
+    float: right;
+    background-color: #f9f9f9;
+
+}
+.tit {
+    color: black;
+    font-size: xx-large;
+    margin-left: 50px;
+}
+.con {
+    color: #8b999f;
+    font-size: large;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+#con1 {
+    list-style-type: none;
+}
+.lb {
+    color: #555;
+    margin-left: 70px;
+    font-size: 20px;
+}
+#su{
+display: inline-block;
+width: 212px;
+height: 44px;
+line-height: 44px!important;
+border-radius: 25px!important;
+background-color: #e8435f!important;
+font-size: 16px!important;
+font-weight: 700;
+text-align: center;
+color: #fff!important;
+text-transform: uppercase;
+margin-top: 35px;
+box-shadow: none!important;
+text-shadow: none!important;
+padding: 0!important;
+}
+.rs1 {
+    width: 600px;
+    height: auto;
+    font-size: 20px;
+    margin-left: 70px;
+}

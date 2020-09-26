@@ -1,0 +1,34 @@
+Networking & Function
+API: Sử dụng các fuction để gọi ra
+fuction: chạy luôn ra giá trị 
+fuction: trả về kết quả gán biến
+fuction: truyền tham số
+Callback
+Function chạy luôn:
+fuction() {
+    const showMore = document.getElementbyID("showMore")
+    showMore.addEventListener('change', ()) =>{
+        let more
+
+    }
+}
+API: giao thức kết nối giữa 2 ngôn ngữ
+Dạng dữ liệu API trả về thường arr và obj là chính
+Hướng xây dựng Database: Bảng dữ liệu chứa đối tượng 
+fetch(): Hàm gọi API
+Function
+Các loại API:
+Thư viện có sẵn
+Thời tiết
+DC: 
+Movie: Phim
+Thư viện ảnh
+Tiền tệ
+Nhạc
+API key
+DB sheet: vừa miễn phí vừa trả phí
+Tool đọc API:
+APi trả về có độ trễ
+async/await
+
+https://tobitheme.net/api/qod.json
