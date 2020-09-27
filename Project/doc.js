@@ -3,6 +3,7 @@ let BMI = {
         name: "",
         email: "",
         password: "",
+        isAdmin: Boolean,
     },
     bmi: {
         height: Number(""),
